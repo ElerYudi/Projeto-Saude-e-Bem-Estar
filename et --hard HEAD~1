@@ -1,0 +1,21 @@
+[33mcommit 5ef02f4550ae38596454d3c6b1ec16087efb8948[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Éler Yudi Mitani Sotoma <80119506+ElerYudi@users.noreply.github.com>
+Date:   Wed Nov 20 19:04:37 2024 -0300
+
+    docs: atualiza informações sobre instalação no README.md
+
+[33mcommit 4fc0cb3faaaf2631ced8e346a6a17580df03f5e7[m
+Author: Éler Yudi Mitani Sotoma <80119506+ElerYudi@users.noreply.github.com>
+Date:   Wed Nov 20 18:57:30 2024 -0300
+
+    feat: inicializa o projeto Saúde e Bem-Estar com estrutura base
+    
+    - Adiciona o arquivo index.html com a estrutura inicial do projeto
+    - Inclui o style.css com os primeiros estilos para a aplicação
+    -Modifica o README.md com a descrição e objetivos do projeto
+
+[33mcommit 0d9e40ebc767cc9bc25f9f2bad4a8c906e95331d[m
+Author: Éler Yudi Mitani Sotoma <80119506+ElerYudi@users.noreply.github.com>
+Date:   Wed Nov 20 16:34:40 2024 -0300
+
+    Initial commit
