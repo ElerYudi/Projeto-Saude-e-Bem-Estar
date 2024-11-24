@@ -1,0 +1,140 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navbar */
+header {
+    background: #34a853;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.auth-buttons {
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+    gap: 10px;
+    height: 50px;
+}
+
+#btn-login {
+    background: #fff;
+    color: #34a853;
+    padding: 15px 50px;
+    border-radius: 12px;
+}
+
+.btn-cadastro {
+    background: #fff;
+    color: #34a853;
+    padding: 15px 20px;
+    border-radius: 12px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #4285f4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn:hover {
+    background: #3367d6;
+}
+
+#banner {
+    background: url('banner.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+#banner h2 {
+    font-size: 2rem;
+}
+
+#banner p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+    background: #fff;
+    margin: 1rem 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #34a853;
+}
+
+section h3{
+    color:#34a853;
+}
+#text{
+    text-align: justify;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    /*background-color: black;*/
+    height: 100%;
+}
+
+.elemento {
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    border: groove;
+    display: flex; /* Ativa o Flexbox */
+    flex-direction: column; /* Organiza os itens em coluna */
+    justify-content: flex-end; /* Move o botão para a parte inferior */
+    align-items: center; /* Centraliza horizontalmente */
+    padding-bottom: 10px; /* Adiciona um espaço interno para evitar que o botão encoste nas bordas */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+footer {
+    background: #34a853;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
