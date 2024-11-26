@@ -8,19 +8,51 @@
 </head>
 <body>
     <header>
-        <h1>Cadastre-se em nosso portal</h1>
-        <h2>Saúde e Bem-estar Para Todos</h2>
+        <h1>Cadastre-se em nosso site!</h1>
+        <h2>Saúde e Bem-Estar para todos</h2>
     </header>
-    <section>
-        <div>
-            <h2>Insira seus Dados nos campos abaixo</h2>
-            <form>
-                <label for="name">Nome:</label>
-                <input type="text" name="name" id="name" placeholder="Insira seu nome completo">
-                <label for="age">Idade:</label>
-                <input type="number" name="age" id="age">
-            </form>
+    <main id="principal">
+        <div id="box-container">
+            <div id="texto">
+                <p>Bem Vindo!</p>
+                <p>Preencha os dados solicitados.</p>
+            </div>
+            <section id="container">
+                <form id="cadastro" action="">
+                    <div class="fields">
+                        <label class="help" for="nome">Nome:</label>
+                        <input class="inputGeral" id="nome" type="text" placeholder="Insira seu nome">
+                    </div>
+                    <div class="fields">
+                        <label class="help" for="email">E-mail:</label>
+                        <input class="inputGeral" id="email" type="text" placeholder="Insira seu e-mail">
+                    </div>
+                    <div class="fields">
+                        <label class="help" for="cpf">CPF:</label>
+                        <input class="inputGeral" id="cpf" type="text" placeholder="Insira seu CPF">
+                    </div>
+                    <div class="fields">
+                        <label class="help" for="telefone">Telefone:</label>
+                        <input class="inputGeral" id="telefone" type="text" placeholder="Insira seu telefone">
+                    </div>
+                    <div class="fields">
+                        <label class="help" for="date">Data de Nascimento:</label>
+                        <input class="inputGeral" id="date" type="date" placeholder="Insira sua data de nascimeto">
+                    </div>
+                    <div class="fields">
+                        <label class="help" for="senha">Senha:</label>
+                        <input class="inputGeral" id="senha" type="password" placeholder="Crie uma senha">
+                    </div>
+                    <div class="buttons">
+                        <button class="buttonSubmit" type="reset">Limpar</button>
+                        <button class="buttonSubmit" type="submit">Cadastrar</button>
+                    </div>
+                </form>
+            </section>
         </div>
-    </section>
+    </main>
+    <footer>
+        <p>© 2024 - Equipe Saúde e Bem-Estar</p>
+    </footer>
 </body>
 </html>

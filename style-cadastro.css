@@ -5,11 +5,109 @@ body {
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header {
+    display: flex;
+    flex-direction: column;
+    background-color: #34a853;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+header > h1,h2 {
+    color: white;
+}
+
+div#box-container {
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    border-radius: 12px;
+    background-color: white;
+    margin-top: 3em;
+    width: 30%;
+    height: auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+}
+
+section#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form#cadastro {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+div#texto {
+    background-color: #34a853;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px 12px 0px 0px;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+}
+
+div#texto > p {
+    margin: 0;
+}
+
+div.fields {
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+    width: 100%;
+    align-items: center;
+}
+
+input.inputGeral {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.348);
+    height: 30px;
+    width: 55%;
+}
+
+label.help {
+    text-align: center;
+    font-weight: bold;
+}
+
+div.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+button.buttonSubmit {
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.096);
+    color: white;
+    font-weight: bold;
+    background-color: #34a853;
+    padding: 3px;
+    cursor: pointer;
+}
+
+footer {
     background: #34a853;
     color: white;
-    padding: 1rem 0;
     text-align: center;
+    padding: 1rem 0;
+    margin-top: 6.1em;
 }
