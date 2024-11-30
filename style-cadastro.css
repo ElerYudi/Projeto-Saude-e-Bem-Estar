@@ -109,6 +109,16 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem 0;
-    margin-top: 6.1em;
+    margin-top: 2em;
     font-family: 'Franklin Gothic Medium';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a.autores {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 6em;
 }

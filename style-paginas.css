@@ -137,3 +137,8 @@ footer {
     margin-top: 2rem;
     font-family: 'Franklin Gothic Medium';
 }
+
+a.autores {
+    text-decoration: none;
+    color: white;
+}

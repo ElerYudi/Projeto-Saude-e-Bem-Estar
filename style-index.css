@@ -88,6 +88,11 @@ footer {
     font-family: 'Franklin Gothic Medium';
 }
 
+a.autores {
+    text-decoration: none;
+    color: white;
+}
+
 .auth-buttons {
     display: flex;
     justify-content: end;
