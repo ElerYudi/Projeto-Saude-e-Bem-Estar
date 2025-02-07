@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administração</title>
+    <link rel="stylesheet" href="style-index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Painel Admin</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Cadastrar Usuário</h2>
+            <form id="user-form">
+                <label for="username">Nome:</label>
+                <input type="text" id="username" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" required>
+                <button type="submit">Cadastrar</button>
+                <button type="button" id="clear-fields">Limpar Campos</button>
+            </form>
+        </section>
+        <section>
+            <h2>Lista de Usuários</h2>
+            <input type="text" id="search" placeholder="Pesquisar...">
+            <ul id="user-list"></ul>
+            <button id="clear-all">Excluir Todos</button>
+        </section>
+    </main>
+    <script src="admin.js"></script>
+</body>
+</html>
