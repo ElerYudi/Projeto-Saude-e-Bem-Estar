@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Administração</title>
-    <link rel="stylesheet" href="style-index.css">
+    <link rel="stylesheet" href="styles-admin.css">
 </head>
 <body>
     <header>
@@ -23,17 +23,21 @@
                 <input type="text" id="username" required>
                 <label for="email">E-mail:</label>
                 <input type="email" id="email" required>
-                <button type="submit">Cadastrar</button>
-                <button type="button" id="clear-fields">Limpar Campos</button>
+                <button class="style-btn" type="submit">Cadastrar</button>
+                <button type="button" id="clear-fields" class="style-btn">Limpar Campos</button>
             </form>
         </section>
         <section>
             <h2>Lista de Usuários</h2>
             <input type="text" id="search" placeholder="Pesquisar...">
             <ul id="user-list"></ul>
-            <button id="clear-all">Excluir Todos</button>
+            <button id="clear-all" class="style-btn">Excluir Todos</button>
         </section>
     </main>
+    <footer>
+        <p>Autores: <a href="https://eleryudi.github.io/" target="_blank" class="autores">Éler Yudi Mitani Sotoma</a></p>
+        <p><a href="https://guilhermerenato10.github.io/guilhermerenato.github.io/" target="_blank" class="autores">Guilherme Renato Terra de Macedo</a></p>
+    </footer>
     <script src="admin.js"></script>
 </body>
 </html>

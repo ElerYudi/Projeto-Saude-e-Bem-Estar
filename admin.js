@@ -21,6 +21,14 @@ document.addEventListener("DOMContentLoaded", () => {
         li.querySelector(".delete").addEventListener("click", () => {
             deleteUser(user.email);
         });
+
+        const button = li.querySelector(".delete");
+        button.style.color = "#fff";
+        button.style.backgroundColor = "#34a853";
+        button.style.padding = "15px 20px";
+        button.style.borderRadius = "12px";
+        button.style.border = "1px solid rgb(240, 240, 240)";
+        button.style.cursor = "pointer";
     }
 
     function saveUser(user) {

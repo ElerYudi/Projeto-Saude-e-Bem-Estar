@@ -1,0 +1,131 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+header {
+    background: #34a853;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+#banner {
+    background: url('banner.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+#banner h2 {
+    font-size: 2rem;
+}
+
+#banner p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+
+section {
+    padding: 2rem;
+    text-align: center;
+    background: #fff;
+    margin: 1rem 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #34a853;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #4285f4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #3367d6;
+}
+
+
+footer {
+    background: #34a853;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-family: 'Franklin Gothic Medium';
+}
+
+a.autores {
+    text-decoration: none;
+    color: white;
+    margin-top: auto;
+}
+
+.auth-buttons {
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+    gap: 10px;
+    height: 50px;
+}
+
+#submit {
+    background: #fff;
+    color: #34a853;
+    padding: 15px 20px;
+    border-radius: 12px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+}
+
+.style-btn {
+    color: #fff;
+    background-color: #34a853;
+    padding: 15px 20px;
+    border-radius: 12px;
+    border: 1px solid rgb(240, 240, 240);
+    cursor: pointer;
+}
